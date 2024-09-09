@@ -1,0 +1,14 @@
+
+### .gitignore
+
+Para um projeto SQL, geralmente não há arquivos a serem ignorados, mas se você tiver arquivos temporários ou de configuração, pode adicionar esses padrões ao `.gitignore`. Aqui está um exemplo de `.gitignore` básico:
+
+```gitignore
+# Ignorar arquivos temporários do MySQL
+*.sql~
+
+# Ignorar arquivos de configuração específicos
+*.my.cnf
+
+# Ignorar logs
+*.log
