@@ -1,0 +1,15 @@
+Sistema de Controle de Estoque
+
+O objetivo deste projeto é implementar um sistema de controle de estoque básico utilizando SQL. O sistema gerencia informações de fornecedores, produtos e pedidos de reposição, permitindo operações fundamentais como inserção, consulta, atualização e exclusão de dados.
+
+Funcionalidades:
+
+Criação do Banco de Dados: Criação do banco de dados SistemaControleEstoque.
+Tabelas:
+Fornecedores: Armazena informações sobre fornecedores.
+Produtos: Armazena informações sobre produtos, incluindo quantidade em estoque e preços.
+PedidosReposicao: Armazena informações sobre pedidos de reposição de produtos.
+Inserção de Dados: Inserção de registros nas tabelas para testes e validação.
+Consultas: Consultas para visualizar produtos, pedidos de reposição e fornecedores.
+Atualizações: Atualização da quantidade de estoque e preços dos produtos.
+Exclusão de Dados: Exclusão de produtos descontinuados e fornecedores que não fazem mais parte da empresa.
