@@ -1,0 +1,35 @@
+# Sistema de Controle de Estoque
+
+Este projeto implementa um sistema básico de controle de estoque utilizando SQL. O sistema permite gerenciar informações de fornecedores, produtos e pedidos de reposição.
+
+## Estrutura do Banco de Dados
+
+O banco de dados `SistemaControleEstoque` contém as seguintes tabelas:
+
+- **Fornecedores**
+  - `fornecedor_id`: Identificador único do fornecedor.
+  - `nome`: Nome do fornecedor.
+  - `telefone`: Número de telefone do fornecedor.
+  - `endereco`: Endereço do fornecedor.
+
+- **Produtos**
+  - `produto_id`: Identificador único do produto.
+  - `nome`: Nome do produto.
+  - `descricao`: Descrição do produto.
+  - `quantidade_estoque`: Quantidade disponível em estoque.
+  - `preco`: Preço do produto.
+  - `fornecedor_id`: Referência ao fornecedor do produto.
+
+- **PedidosReposicao**
+  - `pedido_id`: Identificador único do pedido de reposição.
+  - `produto_id`: Referência ao produto solicitado.
+  - `quantidade`: Quantidade de produto solicitada.
+  - `data_pedido`: Data em que o pedido foi feito.
+
+## Comandos SQL
+
+### 1. Criação do Banco de Dados
+
+```sql
+CREATE DATABASE SistemaControleEstoque;
+USE SistemaControleEstoque;
